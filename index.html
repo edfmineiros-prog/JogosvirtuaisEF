@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduMov Mineiros — Plataforma de Educação Física Interativa</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🏃</div>
+      <div>EduMov <small>MINEIROS-GO</small></div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#jogos">Jogos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+    <button class="btn-login" id="btnLogin">Entrar</button>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Educação Física <span>do digital</span> para a <span>quadra</span>.</h1>
+    <p>Plataforma para professores de Mineiros-GO unirem jogos virtuais a atividades práticas.</p>
+    <div class="hero-buttons">
+      <button class="btn-primary" id="btnComecar">▶ Começar Aula</button>
+      <button class="btn-secondary">📖 Ver Tutorial</button>
+    </div>
+  </section>
+
+  <div class="filtros" id="filtros"></div>
+
+  <section class="jogos-section" id="jogos">
+    <h2>Catálogo de Jogos Interativos</h2>
+    <p class="sub">Cada jogo tem uma versão <strong>digital</strong> e uma <strong>prática</strong>.</p>
+    <div class="jogos-grid" id="grid"></div>
+  </section>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal" id="modalContent">
+      <div class="modal-header">
+        <h2 id="modalTitulo"></h2>
+        <p id="modalTag" style="opacity:.9; margin-top:6px;"></p>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4>🎮 Versão Digital</h4>
+          <p id="modalDigital"></p>
+        </div>
+        <div class="modal-section">
+          <h4>🏃 Atividade na Quadra</h4>
+          <p id="modalQuadra"></p>
+        </div>
+        <div class="modal-section">
+          <h4>📋 Materiais necessários</h4>
+          <p id="modalMateriais"></p>
+        </div>
+        <button class="btn-primary" id="btnIniciarJogo" style="width:100%; margin-top:10px;">▶ Iniciar com a Turma</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>EduMov Mineiros</strong> — Plataforma de Educação Física Interativa</p>
+    <p>Desenvolvido com <span class="heart">♥</span> para os professores de Mineiros-GO</p>
+    <p style="margin-top:10px; font-size:.85rem; opacity:.6;">© 2026 — Versão Demonstrativa</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
