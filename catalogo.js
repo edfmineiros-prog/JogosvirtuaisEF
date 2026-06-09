@@ -1,0 +1,85 @@
+export const jogos = [
+  { id:1, cat:"infantil", cor:"c1", emoji:"🟦🔴🔺", titulo:"Caminho das Cores e Formas", tag:"Educação Infantil",
+    resumo:"Monte uma trilha combinando cores e formas, depois pule pelos arcos na mesma sequência.",
+    digital:"Jogo de arrastar onde a criança monta uma trilha combinando blocos por cor e forma.",
+    quadra:"O professor espalha arcos coloridos. A criança atravessa pulando na sequência criada na tela.",
+    materiais:"Arcos coloridos (bambolês), giz colorido, tablet/celular." },
+
+  { id:2, cat:"infantil", cor:"c2", emoji:"🐸🐍🐎🦀", titulo:"Zoo-Lógica", tag:"Educação Infantil",
+    resumo:"Escolha 4 animais e atravesse a quadra mudando a locomoção a cada marcação.",
+    digital:"A criança escolhe 4 animais em sequência. O site gera um cartão de missão.",
+    quadra:"Percurso reto. A criança atravessa mudando a locomoção a cada marcação.",
+    materiais:"Cones ou marcações de chão, cartão de missão impresso." },
+
+  { id:3, cat:"infantil", cor:"c3", emoji:"🪞🤸", titulo:"Espelho Mágico", tag:"Educação Infantil",
+    resumo:"Trabalha simetria e lateralidade. Em duplas, um faz a pose e o outro espelha.",
+    digital:"O aluno clica em partes do corpo de um avatar e o lado oposto reflete o movimento.",
+    quadra:"Em duplas: um aluno faz a pose, o outro espelha em tempo limite.",
+    materiais:"Apenas os corpos dos alunos e cronômetro." },
+
+  { id:4, cat:"fund1", cor:"c4", emoji:"🐸🌿", titulo:"Pula-Sílaba", tag:"Fundamental I",
+    resumo:"Forme palavras com sílabas e depois 'escreva com os pés' pulando arcos.",
+    digital:"Sapinhos atravessam o rio pulando em vitórias-régias com sílabas para formar palavras.",
+    quadra:"Arcos com sílabas impressas. A criança salta na ordem exata para formar a palavra.",
+    materiais:"Arcos, papel com sílabas, fita adesiva." },
+
+  { id:5, cat:"fund1", cor:"c5", emoji:"🔢➕", titulo:"Calculadora Gigante", tag:"Fundamental I",
+    resumo:"Encontre o caminho numérico até o número-alvo e percorra saltando na grade.",
+    digital:"O aluno escolhe um caminho numérico em uma grade para chegar ao número-alvo.",
+    quadra:"Grade desenhada no chão com números. O aluno percorre o caminho saltando.",
+    materiais:"Giz, fita crepe ou tapete numerado." },
+
+  { id:6, cat:"fund1", cor:"c6", emoji:"♻️🗑️", titulo:"Recicladores em Ação", tag:"Fundamental I",
+    resumo:"Separe lixo na esteira virtual e jogue cada item na lixeira correta na estafeta.",
+    digital:"Esteira virtual com itens. O aluno arrasta para a lixeira correta.",
+    quadra:"Corrida de estafeta com 4 caixas. Os alunos depositam os cartões na caixa correta.",
+    materiais:"4 caixas coloridas, cartões com objetos, cones." },
+
+  { id:7, cat:"fund1", cor:"c7", emoji:"📖⚽", titulo:"Construtores de Histórias", tag:"Fundamental I",
+    resumo:"Ordene cenas para criar uma narrativa lógica e execute as ações em estações.",
+    digital:"Quebra-cabeça narrativo: o aluno ordena cenas para montar uma sequência lógica.",
+    quadra:"Estações na quadra. O aluno executa fisicamente a sequência. Se errar, volta ao início.",
+    materiais:"Bola, cones para estações, cartões com cenas." },
+
+  { id:8, cat:"fund1", cor:"c8", emoji:"💣🗺️", titulo:"Campo Minado da Memória", tag:"Fundamental I",
+    resumo:"Memorize o caminho seguro em 5 segundos e atravesse a área usando a memória.",
+    digital:"Uma grade revela por 5 segundos um caminho seguro e minas. O aluno desenha de memória.",
+    quadra:"Área demarcada com cones (minas). O aluno atravessa usando só a memória.",
+    materiais:"Cones, fita demarcadora." },
+
+  { id:9, cat:"fund1", cor:"c9", emoji:"💪⏱️", titulo:"Construtor de Circuitos", tag:"Fundamental I",
+    resumo:"Crie seu próprio treino HIIT e lidere a turma executando o circuito.",
+    digital:"Interface arrastar-e-soltar para criar treino HIIT com tempos definidos.",
+    quadra:"O aluno se torna instrutor e lidera a turma no circuito que programou.",
+    materiais:"Cronômetro, colchonetes, espaço aberto." },
+
+  { id:10, cat:"fund1", cor:"c10", emoji:"🏀📐", titulo:"Lançamento Parabólico", tag:"Fundamental I",
+    resumo:"Ajuste força e ângulo no virtual e replique o arremesso real.",
+    digital:"Jogo de arremesso onde o aluno ajusta força (1-10) e ângulo.",
+    quadra:"Bolas. Os alunos replicam força e ângulo para acertar alvos a diferentes distâncias.",
+    materiais:"Bolas, alvos (cestos, arcos), trena." },
+
+  { id:11, cat:"fund1", cor:"c11", emoji:"🤖➡️", titulo:"Algoritmo Humano", tag:"Fundamental I",
+    resumo:"Programe um avatar com blocos de comando. Na quadra, um é o robô, o outro o programador.",
+    digital:"Jogo em grid: a criança monta sequência de comandos para levar o avatar de A a B.",
+    quadra:"Grid no chão. Em duplas: o programador dá os comandos e o robô executa.",
+    materiais:"Fita crepe ou giz, tablet/folha de comandos." },
+
+  { id:12, cat:"fund1", cor:"c12", emoji:"🔤🏃", titulo:"Caça-Palavras em Movimento", tag:"Fundamental I",
+    resumo:"Trace a rota das letras no labirinto e corra pelos cones na mesma ordem.",
+    digital:"Labirinto digital com letras. O aluno traça a rota para coletar letras na ordem da palavra.",
+    quadra:"Cones com letras espalhados. O aluno corre passando pelos cones na ordem planejada.",
+    materiais:"Cones, etiquetas com letras, cronômetro." },
+
+  { id:13, cat:"fund1", cor:"c13", emoji:"🎵👣", titulo:"Matriz Rítmica", tag:"Fundamental I",
+    resumo:"Crie sua sequência musical de movimentos e execute na escadinha de agilidade.",
+    digital:"Editor visual onde a criança arrasta ações para uma linha do tempo.",
+    quadra:"Escadinha de agilidade ou bambolês. A criança executa a sequência no ritmo da música.",
+    materiais:"Escadinha de agilidade, caixa de som." },
+
+  { id:14, cat:"fund1", cor:"c14", emoji:"⚓🎯", titulo:"Batalha Naval do Arremesso", tag:"Fundamental I",
+    resumo:"Mire em coordenadas no jogo e replique o arremesso na grade de bambolês.",
+    digital:"Batalha Naval simplificada: o aluno escolhe coordenadas para acertar alvos virtuais.",
+    quadra:"Bambolês formando grade com letras e números. Alunos arremessam nas coordenadas.",
+    materiais:"Bambolês, bolas variadas, etiquetas de coordenadas." }
+];
